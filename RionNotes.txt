@@ -1,0 +1,39 @@
+Trying to keep this notes for my 8 year old nephew visiting me in his vacations in a couple of weeks.
+He is excited about coding and am sure that comes more from knowing the buzz word these days in schools.
+Not sure how I will be explaining vs keeping the interest alive so putting down some notes to see how it goes.
+All rough notes for myself to have a sense of whats been told makes sense to him and how to structure.
+
+
+###### Explain Browsers :
+Step 1) Talk about browsers 
+        open the same websites in diff browsers - help explain what is CONTENT and how browsers behave and show results to us
+        
+Step 2) Talk File / Edit / Options / Bookmarks
+        The Alt- key
+        Zoom and other shorcuts
+        
+Step 3) [Exercise-Test] Exercise to try all options above in another browser.
+
+Step 4) Dev Tools
+
+#######  CH-01 : pre-requisites
+ Step 1) What are xml start/end tags to understand the base of html.
+ Step 2) [Exercise-Test] for start tag and end tag
+         Variant of end tag
+ Step 3) Explaing the need to learn few concepts first which will take some time to understand first
+        coding - variables / special words(keywords)
+        coding - functions / function syntax 
+        coding - use of () . ;
+        coding - some special commands
+                 console.log()
+ 
+  
+####### CH-02
+1. https://www.plunkr.co 
+   Explain the interface and key commands. 
+
+2. and create a base template
+   Understand the key files
+    index.html  --> how this refers to the script.js  where our programming starts
+    script.js   --> play on
+   
