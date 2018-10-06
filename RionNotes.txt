@@ -36,4 +36,13 @@ Step 4) Dev Tools
    Understand the key files
     index.html  --> how this refers to the script.js  where our programming starts
     script.js   --> play on
+   [Exercise-Test] - see how the out put can be seen , just how to use this no explanation of code
    
+####### CH-03 : String / NUmbers
+  Step 1)  Strings
+          "Hello World"  'Hello World'  "Hello World!"  - prefer using double quotes.
+  Step 2) Numbers 
+            not using quotes
+
+
+  
