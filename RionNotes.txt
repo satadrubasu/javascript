@@ -146,7 +146,59 @@ Step 4) Dev Tools
             - .splice(index,n,addItem01,addItem02,...) --> delete and add post delete
             -  LOT of Other APIs , explore [MUST]
    
+####### CH-05 : Program Flow : top to bottom.
+        - If .. else
+        - switch case
+        - looping with for()
+        - Looping with while()
+        - == vs === Comparision
+        - !== ( not wquals)
+        
+  Step 1) If (condition)      
+          various evaluations for FALSY
+             false , 0 , "" , '' , null , undefined , NaN
+          Truth is Not of Falsy
+          
+  Step 2) Switch 
+        let state='Maharashtra'
+        switch(state) {
+          case 'Delhi':
+             // some op
+            break;
+           .. 
+           default :
+              // some op
+             break;
+           }
+     
+  Step 3) for() LOOP
+       for(let i=0;i<=3;i++){
+       console.log(i);
+       }
+       
+  Step 4) while() LOOP
+       while(count<3){
+       console.log(count);
+       count++;
+       }
+       
+####### CH-06 : Functions 
+   ** no return type in signature 
+   ** no type in input parameters
+   ** scope of function - variable in a function block gets undefined outside the function scope
    
+   
+     1.  function showMessage() {
+          // op
+        }
+        
+     2. function showMesage(message,favNumber) {
+          console.log(message,favNumber);
+          return favNUmber*2;
+          }
+          
+             
+        
    
    
    
