@@ -32,7 +32,7 @@ Step 4) Dev Tools
 1. https://www.plunkr.co 
    Explain the interface and key commands. 
 
-2. and create a base template
+2. create a base template ( Explain this later , first start typing in from CH-03 )
    Understand the key files
     index.html  --> how this refers to the script.js  where our programming starts
     script.js   --> play on
@@ -40,9 +40,17 @@ Step 4) Dev Tools
    
 ####### CH-03 : String / Numbers / Simple Operators
   Step 1)  Strings
+           - How to create a string
+           - use of let keyword
+           - use of double quotes vs use of single quotes
+           [Exercise-Test] - 10 questions Create and print all family members name
+           [Exercise-Test] - 10 questions Create strings with single quoes and test special chars.
+          
           "Hello World"  'Hello World'  "Hello World!"  - prefer using double quotes.
   Step 2) Numbers 
-            not using quotes
+           - Not using quotes
+           - How to create a number
+           - use of let keyword
   Step 3) Simple Operators
             +  -  /  *  
             % --> Javascript treats this a remainder 
@@ -67,9 +75,82 @@ Step 4) Dev Tools
     lastName= "Basu";
     console.log(firstName + " " + lastName);
    
-  ####### CH-04 : Comments
+  ####### CH-04 : Comments / Other data types
+   Step 1) Comments
       //       - comment till end of line wherever it starts
       /*   */  - start and end mark
+   
+   Step 2) String and Number Types ( typeof function )
+            - Create String
+            
+             - console.log(typeof(value));
+               let value = 9;
+               console.log(typeof(value));
+               
+             - let value = 4.1 + 4.3;
+                console.log(typeof(value));
+                
+             -  console.log(0/0);          //  NaN - Not a number
+                console.log(100/0);        //  Infinity
+                console.log(-100/0);       // -Infinity  
+                console.log(typeof(10/0)); //  number
+                console.log(typeof(0/0));  //  number
+            
+   
+   Step 3) Boolean Types
+             true / false
+             
+   Step 4) UNDEFINED and NULL
+          JavaScript will initialize variable to undefined
+          We dont manually assign undefined to a variable
+          NULL - we set null to variables as needed
+          
+          - let variableUnin;
+            console.log(variableUnin,typeof(variableUnin)) // undefined,undefined
+            
+          - let variableUnin=null;
+            console.log(variableUnin,typeof(variableUnin)) // null , object
+
+
+   Step 5) Arrays ( store multiple values ) ( Each array element can be of a different type )
+          - Create an Array
+              let values = [];
+                 values = [11,22,33]; // numbers array
+              console.log(values[0]); // 11
+              console.log(values[3]); // undefined
+              
+          - type of array // object
+              let values = [];
+              console.log(typeof(values)); // object
+              
+          - let values = ["Satadru",22,'33']; // dynamic content array
+                console.log(typeof(values));    //object
+                console.log(typeof(values[0]));  // string
+                console.log(typeof(values[1]));  // number
+                console.log(typeof(values[2]));  // String
+             
+           - let masterValues = ["Name",1,values]
+                console.log(mastervalues,typeof(mastervalues)); // prints the array content in a tree fashion / object
+                console.log(mastervalues[0],typeof(mastervalues[0])); // Name / string
+                console.log(mastervalues[1],typeof(mastervalues[1])); // 1/number
+                console.log(mastervalues[2][0],typeof(mastervalues[2][0])); // Satadru/string
+                
+        
+   Step 6) Array Feature  - add / pull etc
+            - .length  --> length 
+            - .push()  --> push at end of array
+            - .pop()   --> pop the last element
+            - .shift() --> pop the first element and shift others to left 
+              .shift(2) --> no special behaviour still pops the 1st element only
+            - .splice(index,n) --> delete with start index and n number of items
+            - .splice(index,n,addItem01,addItem02,...) --> delete and add post delete
+            -  LOT of Other APIs , explore [MUST]
+   
+   
+   
+   
+   
+      
           
            
 
